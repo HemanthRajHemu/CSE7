@@ -67,5 +67,15 @@ Project Work Phase–I + Project work Seminar Text Book, Project Text Book,
  Project Work Phase–I + Project work Seminar solved Question Paper, Project, 
  
  =============================================================================================================
+ 7 sem, cse, 7 cse, 7th sem cse, 7 sem notes, 4th year notes,
+ =============================================================================================================
  17CS71 Notes, 17CS71 Text Book, 17CS71 Question Paper, 17CS71 Scanner, 17CS71 Solved papers, Web Technology and its applications Notes, Web Technology and its applications Text Book, Web Technology and its applications Question Paper, Web Technology and its applications Scanner, Web Technology and its applications Solved papers, WTA Notes, WTA Text Book, WTA Question Paper, WTA Scanner, WTA Solved papers
+ =============================================================================================================
+ 17CS72 Notes, 17CS72 Text Book, 17CS72 Question Paper, 17CS72 Scanner, 17CS72 Solved papers, Advanced Computer Architectures Notes, Advanced Computer Architectures Text Book, Advanced Computer Architectures Question Paper, Advanced Computer Architectures Scanner, Advanced Computer Architectures Solved papers, ACA Notes, ACA Text Book, ACA Question Paper, ACA Scanner, ACA Solved papers
+ =============================================================================================================
  
+ 
+ 
+ =============================================================================================================
+ var elmnt = document.getElementById("grant");
+ elmnt.scrollIntoView();
