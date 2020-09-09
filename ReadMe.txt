@@ -73,6 +73,8 @@ Project Work Phase–I + Project work Seminar Text Book, Project Text Book,
  =============================================================================================================
  17CS72 Notes, 17CS72 Text Book, 17CS72 Question Paper, 17CS72 Scanner, 17CS72 Solved papers, Advanced Computer Architectures Notes, Advanced Computer Architectures Text Book, Advanced Computer Architectures Question Paper, Advanced Computer Architectures Scanner, Advanced Computer Architectures Solved papers, ACA Notes, ACA Text Book, ACA Question Paper, ACA Scanner, ACA Solved papers
  =============================================================================================================
+ 17CS73 Notes, 17CS73 Text Book, 17CS73 Question Paper, 17CS73 Scanner, 17CS73 Solved papers, Machine Learning Notes, Machine Learning Text Book, Machine Learning Question Paper, Machine Learning Scanner, Machine Learning Solved papers, ML Notes, ML Text Book, ML Question Paper, ML Scanner, ML Solved papers
+ =============================================================================================================
  
  
  
