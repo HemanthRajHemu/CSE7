@@ -75,6 +75,8 @@ Project Work Phase–I + Project work Seminar Text Book, Project Text Book,
  =============================================================================================================
  17CS73 Notes, 17CS73 Text Book, 17CS73 Question Paper, 17CS73 Scanner, 17CS73 Solved papers, Machine Learning Notes, Machine Learning Text Book, Machine Learning Question Paper, Machine Learning Scanner, Machine Learning Solved papers, ML Notes, ML Text Book, ML Question Paper, ML Scanner, ML Solved papers
  =============================================================================================================
+ 17CS741 Notes, 17CS741 Text Book, 17CS741 Question Paper, 17CS741 Scanner, 17CS741 Solved papers, NATURAL LANGUAGE PROCESSING Notes, NATURAL LANGUAGE PROCESSING Text Book, NATURAL LANGUAGE PROCESSING Question Paper, NATURAL LANGUAGE PROCESSING Scanner, NATURAL LANGUAGE PROCESSING Solved papers, NLP Notes, NLP Text Book, NLP Question Paper, NLP Scanner, NLP Solved papers
+ =============================================================================================================
  
  
  
