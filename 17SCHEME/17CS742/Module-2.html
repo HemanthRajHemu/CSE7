@@ -189,18 +189,18 @@
 						if (user) {
 							var uid = user.uid;
 							var val1 = "";
-							var rootRef = firebase.database().ref();
+							var rootRef = firebase.database().ref('Users/' + uid);
 							rootRef.once("value")
 								.then(function (snapshot) {
 									//var key1 = snapshot.child("Users").child(uid).child("Status").child("Flag").key;
-									val1 = snapshot.child('Users').child(uid).child('Status').child('Flag').val();
+									val1 = snapshot.child('Status').child('Flag').val();
 									//val1 = 1111;
 									//var val1;
 									if (val1 == '1010' || val1 == '1100' || val1 == '2222') {
 										rootRef.once("value")
 											.then(function (snapshot) {
 												//var key1 = snapshot.child("Users").child(uid).child("Status").child("Flag").key;
-												uname = snapshot.child('Users').child(uid).child('UserInformation').child('userName').val();
+												uname = snapshot.child('UserInformation').child('userName').val();
 												document.getElementById("urname").innerText = uname;
 												//console.log(uname);
 											});
