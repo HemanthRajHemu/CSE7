@@ -10,22 +10,10 @@ keywords: Free VTU 7 semester Notes, Text Book, Question Paper, Scanner, Answer 
 
 <head>
 	<link rel="icon" type="image/ico" href="https://hemanthrajhemu.github.io/FutureVisionBIE/logo.png" />
-	<!--Infolinks script -->
-	<script type="text/javascript">
-		var infolinks_pid = 3211351;
-		var infolinks_wsid = 0;
-	</script>
-	<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146647335-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-146647335-1');
-	</script>
+<!-- Google Analytics tracking ID -->
+{% if jekyll.environment == 'production' %}
+	{% include analytics.html %}
+{% endif %}
 
 	<meta name="google-site-verification" content="google0186c8ef8f3bf22a.html">
 	<meta name="google-site-verification" content="googlead12f4cfae702c06.html">
