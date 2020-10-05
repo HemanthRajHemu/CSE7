@@ -4,3 +4,4 @@ theme: jekyll-theme-minimal
 gems:
         - jekyll-seo-tag
         - jekyll-sitemap
+        - jekyll-last-modified-at
