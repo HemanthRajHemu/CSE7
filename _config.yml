@@ -2,4 +2,6 @@ theme: jekyll-theme-minimal
 
 gems:
         - jekyll-sitemap
+
+plugins:
         - jekyll-seo-tag
