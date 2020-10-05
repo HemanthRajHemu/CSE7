@@ -1,6 +1,7 @@
 ---
 title: CSE 7 Semester Notes Text Book Question Paper - Future Vision BIE
 author: K B Hemanth Raj
+description: Free VTU 7 semester Notes, Text Book, Question Paper, Scanner, Answer Script
 ---
 
 <!DOCTYPE html>
@@ -30,7 +31,14 @@ author: K B Hemanth Raj
 	<!-- indexing -->
 
 	<meta name="author" content="K B HEMANTH RAJ">
-
+	<title>
+		{%if page.title %}
+			{{ page.title }}
+		{% else %}
+			{{ site.title }}
+		{% endif %}
+	 </title>
+	<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="https://hemanthrajhemu.github.io/DB/new.css">
