@@ -1,0 +1,74 @@
+<!--FireBase Login-->
+<script>
+    // FirebaseUI config.
+    initApp = function () {
+        firebase.auth().onAuthStateChanged(function (user) {
+            if (user) {
+                var uid = user.uid;
+                var val1 = "";
+                var rootRef = firebase.database().ref('Users/' + uid);
+                rootRef.once("value")
+                    .then(function (snapshot) {
+                        //var key1 = snapshot.child("Users").child(uid).child("Status").child("Flag").key;
+                        val1 = snapshot.child('Status').child('Flag').val();
+                        //val1 = 1111;
+                        //var val1;
+                        if (val1 == '1010' || val1 == '1100' || val1 == '2222') {
+                            rootRef.once("value")
+                                .then(function (snapshot) {
+                                    //var key1 = snapshot.child("Users").child(uid).child("Status").child("Flag").key;
+                                    uname = snapshot.child('UserInformation').child('userName').val();
+                                    document.getElementById("urname").innerText = uname;
+                                    //console.log(uname);
+                                });
+                            document.getElementById("urid").innerText = uid;
+                            document.getElementById("initLoad").style.display = "none";
+                            document.getElementById("grant").style.display = "block";
+                            var elmnt = document.getElementById("grant");
+                            elmnt.scrollIntoView();
+                        }
+                        else if (val1 == null) {
+                            //RDAuth
+                            var Curl = window.location.href;
+                            var auth = "/LOGIN/auth.html?URL=" + Curl;
+                            var newdiv = document.createElement('div');
+                            newdiv.innerHTML = `<div class="lii"><a href=${auth}>Click Here to Complete the Step 2</a></div>`;
+                            document.getElementById('RDAuth').appendChild(newdiv);
+                            document.getElementById("initLoad").style.display = "none";
+                            document.getElementById("Step1").style.display = "block";
+                            var elmnt = document.getElementById("Step1");
+                            elmnt.scrollIntoView();
+                        }
+                        else if (val1 == '1111') {
+                            document.getElementById("Step3").style.display = "block";
+                            document.getElementById("ubid").innerText = uid;
+                            var elmnt = document.getElementById("Step3");
+                            elmnt.scrollIntoView();
+                        }
+
+
+
+                    });
+            } else {
+                // User is signed out.
+                var Curl = window.location.href;
+                var newdiv1 = document.createElement('div');
+                var all = "/LOGIN/?URL=" + Curl;
+                //console.log(all);
+                newdiv1.innerHTML = `<div class="lii"><a href=${all}>Click Here to Login / Sign up</a></div>`;
+                document.getElementById('RDLogin').appendChild(newdiv1);
+                document.getElementById("initLoad").style.display = "none";
+                document.getElementById("Step2").style.display = "block";
+                var elmnt = document.getElementById("Step2");
+                elmnt.scrollIntoView();
+            }
+        }, function (error) {
+            console.log(error);
+        });
+    };
+
+    window.addEventListener('load', function () {
+        initApp();
+    });
+
+</script>
