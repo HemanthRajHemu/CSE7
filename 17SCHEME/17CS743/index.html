@@ -370,8 +370,13 @@
 
 			<br /><br />
 		</article>
-
-		<footer>Copyright By Future Vision BIE 2018-2019 </footer>
+		<!--Footer Include 1-->
+		{% if jekyll.environment == 'production' %}
+		{% include footer.html %}
+		{% endif %}
+		
+		
+		
 
 	</div>
 </body>

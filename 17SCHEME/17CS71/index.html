@@ -293,8 +293,13 @@ description: 7TH SEMESTER VTU 17CS71 15CS71 Web Technology and its applications 
 
 			<br /><br />
 		</article>
-
-		<footer>Copyright By Future Vision BIE 2018-2021 </footer>
+		<!--Footer Include 1-->
+		{% if jekyll.environment == 'production' %}
+		{% include footer.html %}
+		{% endif %}
+		
+		
+		
 
 	</div>
 </body>
