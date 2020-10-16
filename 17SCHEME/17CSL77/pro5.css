@@ -1,0 +1,9 @@
+*{
+    display: block; font-size: 20px; margin-left: 15px;
+}
+USN {
+    color: blue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
