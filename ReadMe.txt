@@ -1,4 +1,7 @@
 7th Sem - CSE
+visit: http://hemanthrajhemu.github.io/
+
+7th Sem - CSE http://hemanthrajhemu.github.io/CSE7/
 
 Core Subject
 
@@ -79,12 +82,11 @@ Project Work Phase–I + Project work Seminar Text Book, Project Text Book,
  =============================================================================================================
  
  
- http://www.vtuupdates.in/wp-content/uploads/cse/
  add vtu ,cbcs ,17 scheme ,pdf download, vtu notes, pdf, download, vtu notes,
  =============================================================================================================
  var elmnt = document.getElementById("grant");
  elmnt.scrollIntoView();
  
  =============================================================================================================
- https://github.com/gjtorikian/jekyll-last-modified-at
+
  
